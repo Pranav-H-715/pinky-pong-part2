@@ -1,0 +1,28 @@
+.heading{
+    width: 100%;
+    box-shadow: 0px 10px 40px rgb(0, 255, 234);
+    background: linear-gradient(to right, rgb(255, 0, 106) 25%, rgb(0, 132, 255) 50%, rgb(0, 255, 179) 75%, rgb(51, 255, 0) 100%);
+}
+#instruction{
+    float: right;
+}
+h3{
+    display: inline;
+}
+#start{
+    background-color: rgb(255, 0, 106);
+    border: 2px solid rgb(51, 255, 0);
+    font-weight: bold;
+}
+#restart{
+    background-color: rgb(51, 255, 0);
+    border: 2px solid rgb(255, 0, 106);
+    font-weight: bold;
+}
+#footer{
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    background-color: chartreuse;
+    line-height: 2;
+}
